@@ -9,13 +9,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
     <header>
@@ -25,7 +25,7 @@
         >
 
         <ul>
-          <li><a class="page-navigation" href="">Studio</a></li>
+          <li><a class="page-navigation class="page-navigation-studio" href="">Studio</a></li>
           <li><a class="page-navigation" href="">Portfolio</a></li>
           <li><a class="page-navigation" href="">Contacts</a></li>
         </ul>
@@ -45,8 +45,8 @@
     </header>
 
     <main>
-      <section>
-        Effective Solutions for Your Business
+      <!-- Hero -->
+      <section class="hero-section">
         <h1>Effective Solutions for Your Business</h1>
         <button class="order-sevice-button" type="button">Order Service</button>
       </section>
@@ -55,28 +55,28 @@
       <section>
         <ul>
           <li>
-            <h2>Strategy</h2>
+            <h3>Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h2>Punctuality</h2>
+            <h3>Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h2>Diligence</h2>
+            <h3>Diligence</h3>
             <p>
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h2>Technologies</h2>
+            <h3>Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -86,8 +86,8 @@
       </section>
 
       <!-- Our team -->
-      <section>
-        <h3>Our Team</h3>
+      <section class="our-team-section">
+        <h2>Our Team</h2>
         <ul>
           <li>
             <img
@@ -96,7 +96,7 @@
               height="260"
               alt="portrait of Mark Guerrero"
             />
-            <h2>Mark Guerrero</h2>
+            <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
           <li>
@@ -106,7 +106,7 @@
               height="260"
               alt="portrait of Tom Ford"
             />
-            <h2>Tom Ford</h2>
+            <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
@@ -116,7 +116,7 @@
               height="260"
               alt="portrait of Camila Garcia"
             />
-            <h2>Camila Garcia</h2>
+            <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -126,7 +126,7 @@
               height="260"
               alt="portrait of Daniel Wilson"
             />
-            <h2>Daniel Wilson</h2>
+            <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
@@ -134,7 +134,7 @@
 
       <!-- Our Portfolio -->
       <section>
-        <h3>Our Portfolio</h3>
+        <h2>Our Portfolio</h2>
         <ul>
           <li>
             <img
@@ -143,7 +143,7 @@
               height="300"
               alt="Banking app"
             />
-            <h2>Banking App</h2>
+            <h3>Banking App</h3>
             <p>App</p>
           </li>
           <li>
@@ -153,7 +153,7 @@
               height="300"
               alt="payment from the gadjet"
             />
-            <h2>Cashless Payment</h2>
+            <h3>Cashless Payment</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -163,12 +163,9 @@
               height="300"
               alt="meditation app"
             />
-            <h2>Meditaion App</h2>
+            <h3>Meditation App</h3>
             <p>App</p>
           </li>
-        </ul>
-
-        <ul>
           <li>
             <img
               src="./images/car-weel-picture.jpg"
@@ -176,7 +173,7 @@
               height="300"
               alt="Picture of app"
             />
-            <h2>Taxi Service</h2>
+            <h3>Taxi Service</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -186,7 +183,7 @@
               height="300"
               alt="payment from the gadjet picture"
             />
-            <h2>Screen Illustrations</h2>
+            <h3>Screen Illustrations</h3>
             <p>Design</p>
           </li>
           <li>
@@ -196,18 +193,19 @@
               height="300"
               alt="meditation app picture"
             />
-            <h2>Online Courses</h2>
+            <h3>Online Courses</h3>
             <p>Marketing</p>
           </li>
         </ul>
       </section>
     </main>
     <!--footer-->
-    <footer>
+    <footer class="footer">
       <a class="main-logo" href="./index.html"
-        ><span class="main-logo-web">WEB</span>STUDIO</a
-      >
-      <p>
+        ><span class="main-logo-web">WEB</span>
+        <span class="footer-p">STUDIO</span>
+      </a>
+      <p class="footer-p">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

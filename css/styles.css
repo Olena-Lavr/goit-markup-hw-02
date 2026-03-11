@@ -18,6 +18,15 @@ h1 {
 }
 
 h2 {
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+h3 {
     font-weight: 700;
         font-size: 36px;
         /* line-height: 40px; */
@@ -26,13 +35,13 @@ h2 {
         text-align: center;
        }
 
-h3 {
+h4 {
     font-weight: 500;
         font-size: 20px;    
         /* line-height: 24px; */
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: left;
+        text-align: center;
 }
 
 p { font-weight: 400;
@@ -58,7 +67,7 @@ background: #2e2f42;
     background: #f4f4fd;
 }
 
-.our-team-section li {
+.our-team-section-photos {
     background: #fff;
 }
 
@@ -86,8 +95,8 @@ line-height: 1.16667;
 text-transform: uppercase;
 }
 
-.main-logo-web {
-color: #4d5ae5;
+.main-logo-studio-header {
+color: #2E2F42;
 }
 
 .page-navigation {
@@ -121,9 +130,10 @@ color: #4d5ae5;
     color: #404BBF;
 }
 
+.p-team-cards {
+    text-align: center;
+}
 .footer {
-    width: 264px;
-        height: 112px;
         background: #2e2f42;
         color: #f4f4fd;
 }
@@ -135,4 +145,10 @@ color: #4d5ae5;
     letter-spacing: 0.03em;
     line-height: 1.16667;
     text-transform: uppercase;
+}
+.main-logo-studio-footer {
+    color: #f4f4fd;
+}
+.footer-p {
+    color: inherit;
 }

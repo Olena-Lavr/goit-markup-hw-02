@@ -34,15 +34,6 @@ h3 {
     text-align: left;
 }
 
-h4 {
-    font-weight: 500;
-        font-size: 20px;    
-        /* line-height: 24px; */
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-}
-
 p { font-weight: 400;
         font-size: 16px;
         /* line-height: 24px; */
@@ -102,7 +93,7 @@ text-transform: uppercase;
 color: #2E2F42;
 }
 
-.page-navigation {
+.page-navigation, .page-navigation-studio {
     color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
@@ -114,7 +105,7 @@ color: #2E2F42;
 
 .page-navigation-studio:hover,
 .page-navigation-studio:focus {
-    color: #4d5ae5;
+    color: #404BBF;
 } 
 .page-navigation-studio:active {
     text-decoration: underline;

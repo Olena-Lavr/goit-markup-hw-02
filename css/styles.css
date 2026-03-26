@@ -64,6 +64,9 @@ background: #2e2f42;
 .our-team-section-photos {
     background: #fff;
 }
+.team-member-name {
+    text-align: center;
+}
 
 .order-sevice-button {
         background: #4d5ae5;

@@ -35,15 +35,12 @@ h3 {
 }
 
 p { font-weight: 400;
-        font-size: 16px;
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 } 
-
-a {text-decoration: none;
-color: #4D5AE5;}
 
 button {cursor: pointer;}
 button:hover, button:focus {
@@ -71,11 +68,11 @@ background: #2e2f42;
 .order-sevice-button {
         background: #4d5ae5;
         font-weight: 500;
-            font-size: 16px;
-            /* line-height: 24px; */
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #fff;
+        font-size: 16px;
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
 }
 
 
@@ -90,10 +87,19 @@ font-weight: 700;
 letter-spacing: 0.03em;
 line-height: 1.16667;
 text-transform: uppercase;
+text-decoration: none;
+    color: #4D5AE5
 }
 
 .main-logo-studio-header {
-color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        line-height: 1.16667;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #2E2F42;
 }
 
 .page-navigation, .page-navigation-studio {
@@ -101,6 +107,7 @@ color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
+    text-decoration: none;
     }
 
 .page-navigation:hover, .page-navigation:focus {
@@ -121,6 +128,7 @@ color: #2E2F42;
         color: #434455;
         letter-spacing: 0.02em;
         font-style: normal;
+        text-decoration: none;
 }
 
 .contacts:hover, .contacts:focus {
@@ -142,9 +150,12 @@ color: #2E2F42;
     letter-spacing: 0.03em;
     line-height: 1.16667;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #4D5AE5
 }
 .main-logo-studio-footer {
     color: #f4f4fd;
+    text-decoration: none;
 }
 .footer-p {
     color: inherit;

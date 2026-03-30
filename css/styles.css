@@ -6,7 +6,8 @@ body {
     color: #2e2f42;
 background-color: #fff;}
 
-h1 {
+/* h1 */
+.main-header {
     font-weight: 700;
         font-size: 56px;
         /* line-height: 60px; */
@@ -15,24 +16,42 @@ h1 {
         text-align: center;
         color: #fff;       
 }
-
-h2 {
-    font-weight: 700;
+/* h2 */
+.team-section-header {
+        font-weight: 700;
         font-size: 36px;
         /* line-height: 40px; */
         line-height: 1.11111;
         letter-spacing: 0.02em;
         text-align: center;
-       }
-       
-h3 {
+    }
+/* h2 */
+.portfolio-section-header {
+        font-weight: 700;
+        font-size: 36px;
+        /* line-height: 40px; */
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+ /* h3 */
+.agenda-card-header {
+        font-weight: 500;
+        font-size: 20px;
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+/* h3 */
+.team-member-name {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     /* line-height: 24px; */
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: left;
-}
+    }
 
 p { font-weight: 400;
     font-size: 16px;
@@ -40,10 +59,29 @@ p { font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-} 
+}
 
-button {cursor: pointer;}
-button:hover, button:focus {
+.portfolio-cards-text {
+        font-weight: 400;
+        font-size: 16px;
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+.agenda-cards-text {
+        font-weight: 400;
+        font-size: 16px;
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+
+.order-sevice-button {cursor: pointer;}
+
+.order-sevice-button:hover,
+.order-sevice-button:focus {
     background: #404bbf;
 }
 
@@ -60,9 +98,6 @@ background: #2e2f42;
 
 .our-team-section-photos {
     background: #fff;
-}
-.team-member-name {
-    text-align: center;
 }
 
 .order-sevice-button {
@@ -108,6 +143,7 @@ text-decoration: none;
     font-size: 16px;
     letter-spacing: 0.02em;
     text-decoration: none;
+    line-height: 1.5;
     }
 
 .page-navigation:hover, .page-navigation:focus {
@@ -135,8 +171,14 @@ text-decoration: none;
     color: #404BBF;
 }
 
-.p-team-cards {
+.team-cards-text {
     text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+        /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .footer {
         background: #2e2f42;
@@ -157,6 +199,11 @@ text-decoration: none;
     color: #f4f4fd;
     text-decoration: none;
 }
-.footer-p {
-    color: inherit;
-}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+        }

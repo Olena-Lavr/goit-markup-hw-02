@@ -53,6 +53,15 @@ background-color: #fff;}
     letter-spacing: 0.02em;
     }
 
+.portfolio-cards-header {
+        text-align: left;
+        font-weight: 500;
+        font-size: 20px;
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
 p { font-weight: 400;
     font-size: 16px;
     /* line-height: 24px; */
@@ -68,6 +77,7 @@ p { font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: left;
     }
 .agenda-cards-text {
         font-weight: 400;
@@ -205,5 +215,5 @@ text-decoration: none;
     /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: inherit;
         }
